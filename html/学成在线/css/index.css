@@ -1,0 +1,182 @@
+body {
+	background-color: #f3f5f7;
+
+}
+
+header {
+	width: 1300px;
+	height: 100px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+a {
+	color: #050505;
+}
+.log {
+	width: 195px;
+	height: 42px;
+	float: left;
+/*	background-color: skyblue;
+*/}
+
+.log a {
+	display: block;
+	width: 195px;
+	height: 42px;	
+	background: url(../images/logo.png) no-repeat;
+	text-indent: -9900px; 
+}
+
+.nav {
+
+	/*padding-left: 75px;*/
+}
+.nav li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 25px;
+}
+
+.nav li a{
+	font-size: 18px;
+	padding: 0 10px;
+	display: block;
+}
+
+.nav li a:hover{
+	border-bottom: 2px solid #00a4ff;
+}
+
+.search {
+	float: left;
+	margin-left: 160px;
+}
+
+.search input {
+	width: 360px;
+	height: 40px;
+	float: left;
+	border: 1px solid #00a4ff;
+	padding-left: 10px;
+} 
+
+.search button{
+	width: 50px;
+	height: 40px;
+	float: left;
+	border: 0;
+	outline: none;
+	background: url(../images/fa-search.png) no-repeat;
+}
+
+.personal dt,.personal dd {
+	float: left;
+}
+
+.personal {
+	float: right;
+	height: 40px;
+	line-height: 40px;
+}
+
+.personal s {
+	position: relative;
+	padding: 0 20px;
+	text-decoration: none;
+}
+
+.personal s::before {
+	content: "";
+	display: block;
+	width: 6px;
+	height: 6px;
+	background-color: red;
+	position: absolute;
+	right: 14px;
+	top: 0;
+	border-radius: 50%;
+
+}
+
+.personal span img {
+	border-radius: 50%;
+	margin-right: 10px;
+	transition:all 0.6s;
+}
+
+.personal span:hover img {
+	transform: rotate(360deg);
+}
+
+.benner {
+	height: 420px;
+	background-color: #1c036c;
+}
+
+.inner {
+	height: 420px;
+	position: relative;
+}
+
+.subnav {
+	width: 190px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(0,0,0,.3);
+	padding-top: 20px; 
+}
+
+.subnav li {
+	padding-left: 20px; 
+	height: 40px;
+	line-height: 40px; 
+	position: relative;
+	
+}
+
+.subnav li a {
+	display: block;
+	font-size: 14px;
+	color: #fff;
+}
+
+.subnav li a:hover {
+	color: #01acf6;
+}
+
+.subnav li span {
+	font-family: "icomoon";
+	font-size: 14px;
+	position: absolute;
+	right: 20px;
+	top: 0;
+}
+
+.circle {
+	width: 176px;
+	height: 20px;
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	transform: translate(-50%)
+}
+
+.circle i {
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	background-color: #fff;
+	margin: 0 5px;
+	background: rgba(255,255,255,.4);
+	border-radius: 6px;
+	transition: all 0.3s;
+}
+
+.circle i:hover {
+	width: 20px;
+	background-color: #fff;
+}
